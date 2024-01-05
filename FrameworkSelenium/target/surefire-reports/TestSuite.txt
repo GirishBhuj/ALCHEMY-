@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 13, Time elapsed: 12.296 s <<< FAILURE! - in TestSuite
+SetUp(com.ibm.testcases.SendMailRediffmailTest)  Time elapsed: 12.11 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-7REP2B3U', ip: '9.193.18.111'
+	at com.ibm.testcases.SendMailRediffmailTest.SetUp(SendMailRediffmailTest.java:59)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: driver.version: RemoteWebDriver
+	at com.ibm.testcases.SendMailRediffmailTest.SetUp(SendMailRediffmailTest.java:59)
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Caused by: java.net.ConnectException: HTTP connect timed out
+
+SetUp(com.ibm.testcases.CreateAccountRediffmailTest)  Time elapsed: 12.11 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'LAPTOP-7REP2B3U', ip: '9.193.18.111'
+	at com.ibm.testcases.CreateAccountRediffmailTest.SetUp(CreateAccountRediffmailTest.java:75)
+Caused by: org.openqa.selenium.TimeoutException: 
+java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.21'
+Driver info: driver.version: RemoteWebDriver
+	at com.ibm.testcases.CreateAccountRediffmailTest.SetUp(CreateAccountRediffmailTest.java:75)
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Caused by: java.net.ConnectException: HTTP connect timed out
+
