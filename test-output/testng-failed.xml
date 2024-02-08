@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Rediffmail Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Send Mail Test Case(failed)">
+    <classes>
+      <class name="com.ibm.testcases.SendMailRediffmailTest">
+        <methods>
+          <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="SendMailRediffmail"/>
+        </methods>
+      </class> <!-- com.ibm.testcases.SendMailRediffmailTest -->
+    </classes>
+  </test> <!-- Send Mail Test Case(failed) -->
+</suite> <!-- Failed suite [Rediffmail Suite] -->

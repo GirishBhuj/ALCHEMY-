@@ -1,0 +1,10 @@
+Hub Creation:
+java -jar selenium-server-4.15.0.jar hub
+
+If the node is same machine:
+java -jar selenium-server-4.15.0.jar node --detect-drivers true --port 6666
+java -jar selenium-server-4.15.0.jar node --detect-drivers true --port 5555
+
+
+If the node is in different machine:
+java -jar selenium-server-4.15.0.jar node --detect-drivers --publish-events tcp://192.168.0.157:4442 --subscribe-events tcp://192.168.0.157:4443
